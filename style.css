@@ -58,3 +58,27 @@
 .heroimg img {
     width: 400px;
 }
+
+
+
+
+
+.thirdsec {
+    padding: 0px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.line1, .line2 {
+    height: 1px;
+    width: 80%;
+    justify-content: center;
+    background: rgba(142, 143, 142, 0.15);
+    margin: 60px auto 30px auto;
+}
+
+.line2 {
+    margin: 30px auto 60px auto;
+}
