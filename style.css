@@ -191,3 +191,55 @@
 .btn2:hover {
     background-color: black;
 }
+
+
+
+
+
+.footer {
+    background: #0A0826;
+    padding: 60px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 16px;
+}
+
+.fr {
+    text-align: center;
+}
+
+.frh1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.frtext {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.social-icon img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1); 
+}
+
+.social-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #002c5c;
+    transform: scale(1.1);
+}
